@@ -20,24 +20,18 @@ This Flask application generates captions for uploaded images using a pre-traine
 
 ## 📦 Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
-   ```
-
-2. Create a virtual environment and activate it:
+1. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-3. Install the dependencies:
+2. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Ensure the `static/uploads` directory exists:
+3. Ensure the `static/uploads` directory exists:
    ```bash
    mkdir -p static/uploads
    ```
